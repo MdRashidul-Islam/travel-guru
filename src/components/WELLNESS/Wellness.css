@@ -1,0 +1,52 @@
+.wellness{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.wellness-container{
+  margin-top: 100px;
+  margin-bottom: 40px;
+}
+
+.img-div{
+  width: 50%;
+}
+
+.text-div{
+  width: 40%;
+}
+
+.wellness-img{
+  /* height: 300px; */
+  width: 600px;
+  margin-left: 20px;
+ 
+}
+@media only screen and (max-width:688px) {
+  .wellness{
+    display: block;   
+    
+  }
+  .wellness-container{
+   
+  }
+  
+  .img-div{
+    width: 100%;
+  }
+  
+  .text-div{
+    width: 100%;
+    padding: 0px 30px;
+    text-align: justify;
+  }
+  
+  .wellness-img{
+   
+    width: 90%;
+    
+   
+  }
+}

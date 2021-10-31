@@ -1,0 +1,41 @@
+form{
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: 0 auto;
+  margin-top:40px
+}
+.addService{
+  margin-top: 80px
+}
+
+.add-form input{
+  margin-bottom: 20px;
+  padding: 10px;
+}
+.add-form textarea{
+  margin-bottom: 20px;
+  height:80px
+}
+
+@media only screen and (max-width:688px) {
+
+  form{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+    margin-top:40px
+  }
+  
+  .add-form input{
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid black;
+  }
+  .add-form textarea{
+    margin-bottom: 20px;
+    height:80px
+  }
+
+}

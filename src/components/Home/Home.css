@@ -1,0 +1,23 @@
+.link-btn{
+text-decoration: none
+}
+
+.rooms{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+
+.container{
+min-height: 100vh;
+margin-bottom: 40px;
+}
+
+@media only screen and (max-width:688px) {
+  .rooms{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 2px;
+  }
+  
+}

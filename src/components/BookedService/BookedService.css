@@ -1,0 +1,20 @@
+.booked-service{
+  height: 500px
+}
+
+.booked-btn{
+  display: block;
+  margin: 0 auto;
+  border: none;
+  border: 1px solid crimson;
+  padding:8px 20px ;
+  background-color:none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.booked-btn:hover{
+  border: none;
+  background-color:crimson;
+  color: white;
+}
