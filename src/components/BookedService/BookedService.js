@@ -24,7 +24,7 @@ const BookedService = (props) => {
       }
     })
 
-console.log(id)
+
    }
   }
 

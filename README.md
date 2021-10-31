@@ -1,7 +1,7 @@
 # GRAND HOTEL 
 
 ## SITE LINK
-
+live site link('https://travel-guru-83c9e.web.app/')
 
 
 ## Everything that has been used to create the site-

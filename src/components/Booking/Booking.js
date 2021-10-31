@@ -45,7 +45,7 @@ const Booking = () => {
       }
       reset()
     })
-    console.log(data)
+   
   };
 
  
