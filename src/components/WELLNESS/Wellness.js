@@ -5,7 +5,7 @@ import DisplayWellness from './DisplayWellness';
 const WELLNESS = () => {
   const [services, setServices]= useState([]);
   useEffect(()=>{
-    fetch('http://localhost:5000/wellness')
+    fetch('https://frightening-hollow-48325.herokuapp.com/wellness')
     .then(res=>res.json())
     .then(data=>setServices(data))
   },[])

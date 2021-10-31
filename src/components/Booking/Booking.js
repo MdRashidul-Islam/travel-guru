@@ -13,7 +13,7 @@ const Booking = () => {
     
 
     useEffect(()=>{
-      fetch(`http://localhost:5000/rooms/${roomId}`)
+      fetch(`https://frightening-hollow-48325.herokuapp.com/rooms/${roomId}`)
       .then(res=>res.json())
       .then(data=>setRoomDetails(data))
     },[])
@@ -32,7 +32,7 @@ const Booking = () => {
     data.item=roomDetails?.name;
     
     
-    fetch("http://localhost:5000/myBooking", {
+    fetch("https://frightening-hollow-48325.herokuapp.com/myBooking", {
       method: "POST",
       headers: {"content-type": "application/json"},
       body: JSON.stringify(data)

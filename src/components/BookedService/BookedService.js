@@ -11,7 +11,7 @@ const BookedService = (props) => {
   const handleDelete=(id)=>{
    const proceed= window.confirm('Are you sure to delete?');
    if(proceed){
-    const url=`http://localhost:5000/myBooking/${id}`
+    const url=`https://frightening-hollow-48325.herokuapp.com/myBooking/${id}`
     fetch(url,{
       method: 'DELETE',
 

@@ -8,7 +8,7 @@ const MyOrder = () => {
   
   
   useEffect(()=>{
-    fetch(`http://localhost:5000/myBooking/${user?.email}`)
+    fetch(`https://frightening-hollow-48325.herokuapp.com/myBooking/${user?.email}`)
     .then(res=>res.json())
     .then(data=>{
       if(data.length){

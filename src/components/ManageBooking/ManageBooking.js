@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import { Table } from 'react-bootstrap';
 import Manage from './Manage';
 import './ManageBooking.css'
 
@@ -8,7 +7,7 @@ const ManageBooking = () => {
   const [addEvent, setAddEvent]= useState([]);
 
    useEffect(()=>{
-    fetch(`http://localhost:5000/myBooking`)
+    fetch(`https://frightening-hollow-48325.herokuapp.com/myBooking`)
     .then(res=>res.json())
     .then(data=>setAddEvent(data))
   },[])

@@ -8,7 +8,7 @@ const Home = () => {
 
   const [rooms, setRooms]= useState([])
   useEffect(() =>{
-    fetch('http://localhost:5000/rooms')
+    fetch('https://frightening-hollow-48325.herokuapp.com/rooms')
     .then(res=>res.json())
     .then(data =>{
       if(data.length){

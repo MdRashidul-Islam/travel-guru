@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from 'react';
+
 import { Card, ListGroup } from 'react-bootstrap';
-import { useParams } from 'react-router';
+
 
 const Manage = (props) => {
   const{_id, name, email, item, status}=props.event;
@@ -9,7 +9,7 @@ const Manage = (props) => {
   const deleteBooking=(id)=>{
     const proceed= window.confirm('Are you sure to delete?');
     if(proceed){
-     const url=`http://localhost:5000/myBooking/${id}`
+     const url=`https://frightening-hollow-48325.herokuapp.com/myBooking/${id}`
      fetch(url,{
        method: 'DELETE',
  
